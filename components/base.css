@@ -1,0 +1,16 @@
+body {
+  font-family: Roboto, Arial, sans-serif;
+}
+
+.cgps-heading {
+  font-family: "Saira Semi Condensed", Roboto, Arial, sans-serif;
+  color: #3c7383;
+}
+
+/* strong {
+  font-weight: 500;
+} */
+
+input::placeholder {
+  font-family: Roboto, Arial, sans-serif;
+}

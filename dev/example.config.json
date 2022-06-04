@@ -1,0 +1,24 @@
+{
+  "dbUrl": "mongodb://localhost:27017/test",
+  "strategies": {
+    "facebook": {
+      "clientID": "",
+      "clientSecret": ""
+    },
+    "google": {
+      "clientID": "",
+      "clientSecret": ""
+    },
+    "twitter": {
+      "consumerKey": "",
+      "consumerSecret": ""
+    },
+    "ldap": {
+      "url": "ldap://192.168.1.8:389",
+      "bindDn": "cn=admin,dc=test,dc=com",
+      "bindCredentials": "password",
+      "searchBase": "ou=People,dc=test,dc=com",
+      "searchFilter": "(uid={{username}})"
+    }
+  }
+}

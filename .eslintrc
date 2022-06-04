@@ -1,0 +1,6 @@
+{
+  "extends": "cgps",
+  "env": {
+    "node": true
+  }
+}

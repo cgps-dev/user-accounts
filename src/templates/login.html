@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Login</title>
+  <meta name="description" content="Microreact allows you to upload, visualise and explore dendrograms (trees) linked to metadata containing geographic locations.">
+  <meta name="author" content="Imperial College London">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="//storage.googleapis.com/code.getmdl.io/1.1.2/material.blue_grey-deep_orange.min.css">
+  <link rel="stylesheet" href="/vendor/jquery-ui/jquery-ui.min.css">
+</head>
+<body style="background: #E5E5E5;">
+  <div>
+    <form action="/auth/ldap" method="post" class="mdl-card" style="margin: 80px auto;">
+      <div class="mdl-card__title">
+        Sign in to your account
+      </div>
+      <div class="mdl-card__supporting-text">
+        <p>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" id="username" name="username" />
+            <label class="mdl-textfield__label" for="username">Username</label>
+          </div>
+        </p>
+        <p>
+            <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="password" id="password" name="password" />
+            <label class="mdl-textfield__label" for="password">Password</label>
+          </div>
+        </p>
+      </div>
+      <div class="mdl-card__actions">
+        <button class="mdl-button mdl-js-button mdl-button--raised" type="submit">
+          Sign in
+        </button>
+      </div>
+    </form>
+  </div>
+  <script src="/vendor/jquery-ui/jquery-ui.min.js"></script>
+  <script src="//storage.googleapis.com/code.getmdl.io/1.1.2/material.min.js"></script>
+</body>
+</html>
