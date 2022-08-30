@@ -9,7 +9,7 @@
     "ldapauth-fork": "git+https://gitlab.com/cgps/open-source/node-ldapauth-fork.git",
     "passport": "^0.4.0",
     "passport-facebook": "^2.0.0",
-    "passport-google-oauth20": "^1.0.0",
+    "passport-google-oauth20": "^2.0.0",
     "passport-jwt": "^4.0.0",
     "passport-ldapauth": "^0.5.0",
     "passport-openidconnect": "gitlab:cgps/open-source/passport-openidconnect#2d75e78",
