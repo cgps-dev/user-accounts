@@ -27,6 +27,10 @@ module.exports = function (app, userOptions) {
             return res.redirect(options.failureRedirect);
           }
 
+          if (options.allowedUsers && !options.allowedUsers.includes(user.email)) {
+            return res.redirect(options.failureRedirect);
+          }
+
           return req.logIn(user, (loginError) => {
             if (loginError) {
               return next(loginError);
